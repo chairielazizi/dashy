@@ -44,4 +44,298 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+- name: Coding
+  icon: fas fa-pencil
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+  items:
+    - title: Selenium
+      description: Selenium Documentaion
+      icon: fas fa-vial
+      url: https://www.selenium.dev/documentation/
+      target: newtab
+      statusCheck: true
+      id: 0_596_selenium
+    - title: Docker
+      description: Docker
+      icon: fas fa-anchor
+      url: https://docs.docker.com/
+      target: newtab
+      statusCheck: true
+      id: 1_596_docker
+    - title: Cucumber
+      description: Cucumber
+      icon: fas fa-seedling
+      url: https://cucumber.io/docs/cucumber/
+      target: newtab
+      statusCheck: true
+      id: 2_596_cucumber
+- name: Youtube Ref
+  icon: fa fa-circle-play
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 2
+    collapsed: false
+    hideForGuests: false
+  items:
+    - title: Fireship
+      icon: fas fa-terminal
+      url: https://www.youtube.com/@Fireship
+      target: newtab
+      statusCheck: true
+      id: 0_1066_fireship
+    - title: Network Chuck
+      description: https://www.youtube.com/@NetworkChuck
+      icon: fas fa-pencil
+      url: https://www.youtube.com/@NetworkChuck
+      target: newtab
+      statusCheck: true
+      id: 1_1066_networkchuck
+    - &ref_11
+      title: Malware Dev
+      description: https://www.youtube.com/@crr0ww
+      icon: fas fa-pencil
+      url: https://www.youtube.com/@crr0ww
+      target: newtab
+      statusCheck: true
+      id: 2_1066_malwaredev
+    - title: Awesome Open Source
+      description: https://www.youtube.com/@AwesomeOpenSource
+      icon: fas fa-pencil
+      url: https://www.youtube.com/@AwesomeOpenSource
+      target: newtab
+      statusCheck: true
+      id: 3_1066_awesomeopensource
+    - title: ' PC Security Channel'
+      description: PC Security Channel
+      icon: fas fa-laptop
+      url: https://www.youtube.com/@pcsecuritychannel
+      target: newtab
+      statusCheck: true
+      id: 4_1066_pcsecuritychannel
+    - title: Seytonic
+      description: Seytonic
+      icon: fas fa-pencil
+      url: https://www.youtube.com/@Seytonic
+      target: newtab
+      statusCheck: true
+      id: 5_1066_seytonic
+    - title: Sumsub
+      description: Sumsub
+      icon: fas fa-book
+      url: https://www.youtube.com/@Sumsubcom
+      target: newtab
+      statusCheck: true
+      id: 6_1066_sumsub
+    - title: Derek Jamison
+      description: Flipper Zero Coding
+      icon: fas fa-terminal
+      url: https://www.youtube.com/@MrDerekJamison
+      target: newtab
+      statusCheck: true
+      id: 7_1066_derekjamison
+- name: IP and Clock
+  icon: fas fa-timeline
+  displayData:
+    rows: 1
+  widgets:
+  # - type: github-trending-repos
+  #   options:
+  #     limit: 8
+  #     since: weekly
+  - type: public-ip
+  - type: clock
+    options:
+      timeZone: Asia/Kuala_Lumpur
+      format: en-MY
+      hideDate: false
+- name: Weather
+  icon: fas fa-cloud
+  displayData:
+    rows: 1
+  widgets:
+  - type: weather
+    options:
+      apiKey: 1ac963833134686d86857b821075365b
+      city: Kuala Lumpur
+      units: metric
+      hideDetails: false
+      # xosana8069@trackden.com
+# - name: Vulnerablities News
+#   icon: fas fa-bug
+#   displayData:
+#     rows: 1
+#   widgets:
+#   - type: cve-vulnerabilities
+#     options:
+#       sortBy: publish-date
+#       productId: 28125
+#       hasExploit: false
+#       minScore: 5
+#       limit: 30
+- name: Joke
+  icon: fas fa-calendar
+  displayData:
+    rows: 1
+  widgets:
+  - type: joke
+    options:
+      safeMode: true
+      language: en
+      category: All
+      # useProxy: true
+# - name: Holidays
+#   icon: fas fa-calendar
+#   displayData:
+#     rows: 1
+#   widgets:
+#   - type: public-holidays
+#     options:
+#       country: MY
+#       state: MY-10
+#       holidayType: all
+#       monthsToShow: 12
+#       lang: en
+
+- name: Astro Awani - Terkini
+  icon: fas fa-calendar
+  displayData:
+    rows: 2
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://rss.astroawani.com/rss/latest/public
+      limit: 5
+      orderBy: pubDate
+  # - type: iframe
+  #   options:
+  #     url: https://astroawani.com/
+  #     frameHeight: 600px
+  # - type: embed
+  #   options:
+  #     html: '<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/mDFBTdToRmw?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>'
+
+- name: Astro of the Day
+  icon: fas fa-calendar
+  displayData:
+    rows: 1
+  widgets:
+  - type: apod
+
+
+# - name: Github Trending
+#   icon: fas fa-timeline
+#   displayData:
+#     rows: 1
+#   widgets:
+#   - type: github-trending-repos
+#     options:
+#       limit: 8
   
+- name: CPU Usage
+  icon: fas fa-tachometer
+  displayData:
+    rows: 1
+  widgets:
+  - type: gl-current-cpu
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+  # - type: gl-current-cores
+  #   options:
+  #     hostname: http://localhost:61208
+  #     limit: 4
+  # - type: gl-ip-address
+  #   options:
+  #     hostname: http://localhost:61208
+
+- name: Memory Usage
+  icon: fas fa-memory
+  widgets:
+  - type: gl-current-mem
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+      
+- name: CPU History
+  icon: fas fa-microchip
+  displayData:
+    cols: 2
+    rows: 1
+  widgets:
+  - type: gl-cpu-history
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+      limit: 60
+
+    
+- name: Network Activity
+  icon: fas fa-exchange
+  displayData:
+    cols: 2
+  widgets:
+  # - type: gl-network-activity
+  - type: gl-network-traffic
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+      limit: 500
+      
+- name: Disk Space
+  icon: fas fa-hdd
+  widgets:
+  - type: gl-disk-space
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+
+# - name: Network Interfaces
+#   icon: fas fa-ethernet
+#   widgets:
+#   - type: gl-network-interfaces
+#     options:
+#       hostname: http://localhost:61208
+#       limit: 500
+
+    
+- name: Disk IO
+  icon: fas fa-disc-drive
+  widgets:
+  - type: gl-disk-io
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+      
+- name: Astro Awani - Dunia
+  icon: fas fa-calendar
+  displayData:
+    rows: 1
+    cols: 2
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: http://rss.astroawani.com/rss/international/public
+      limit: 5
+      orderBy: pubDate
+      
+- name: System Load
+  icon: fas fa-tasks-alt
+  widgets:
+  - type: gl-system-load
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208
+
+- name: System Alerts
+  icon: fas fa-sensor-alert
+  widgets:
+  - type: gl-alerts
+    ignoreErrors: true
+    options:
+      hostname: http://localhost:61208

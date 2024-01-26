@@ -2,7 +2,7 @@
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
-  description: Welcome to your new dashboard!
+  description: Welcome to Airiel''s dashboard!
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
@@ -245,7 +245,7 @@ sections:
   - type: gl-current-cpu
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
   # - type: gl-current-cores
   #   options:
   #     hostname: http://localhost:61208
@@ -260,7 +260,7 @@ sections:
   - type: gl-current-mem
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
       
 - name: CPU History
   icon: fas fa-microchip
@@ -271,7 +271,7 @@ sections:
   - type: gl-cpu-history
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
       limit: 60
 
     
@@ -284,7 +284,7 @@ sections:
   - type: gl-network-traffic
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
       limit: 500
       
 - name: Disk Space
@@ -293,7 +293,7 @@ sections:
   - type: gl-disk-space
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
 
 # - name: Network Interfaces
 #   icon: fas fa-ethernet
@@ -310,7 +310,7 @@ sections:
   - type: gl-disk-io
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
       
 - name: Astro Awani - Dunia
   icon: fas fa-calendar
@@ -330,7 +330,7 @@ sections:
   - type: gl-system-load
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208
 
 - name: System Alerts
   icon: fas fa-sensor-alert
@@ -338,4 +338,4 @@ sections:
   - type: gl-alerts
     ignoreErrors: true
     options:
-      hostname: http://localhost:61208
+      hostname: http://192.168.8.107:61208

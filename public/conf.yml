@@ -246,7 +246,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
   # - type: gl-current-cores
   #   options:
   #     hostname: http://localhost:61208
@@ -262,7 +263,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
       
 - name: CPU History
   icon: fas fa-microchip
@@ -274,7 +276,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
       limit: 60
 
     
@@ -288,7 +291,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
       limit: 500
       
 - name: Disk Space
@@ -298,7 +302,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
 
 # - name: Network Interfaces
 #   icon: fas fa-ethernet
@@ -316,7 +321,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
       
 - name: Astro Awani - Dunia
   icon: fas fa-calendar
@@ -337,7 +343,8 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space
 
 - name: System Alerts
   icon: fas fa-sensor-alert
@@ -346,4 +353,5 @@ sections:
     ignoreErrors: true
     options:
       #hostname: http://192.168.8.107:61208
-      hostname: http://192.168.8.144:61208
+      #hostname: http://192.168.8.144:61208
+      hostname: https://glance.airiel.space

@@ -247,14 +247,15 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
-  # - type: gl-current-cores
-  #   options:
-  #     hostname: http://localhost:61208
-  #     limit: 4
-  # - type: gl-ip-address
-  #   options:
-  #     hostname: http://localhost:61208
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
+  - type: gl-current-cores
+    options:
+      hostname: http://localhost:61208
+      limit: 4
+  - type: gl-ip-address
+    options:
+      hostname: http://localhost:61208
 
 - name: Memory Usage
   icon: fas fa-memory
@@ -264,7 +265,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
       
 - name: CPU History
   icon: fas fa-microchip
@@ -277,7 +279,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
       limit: 60
 
     
@@ -292,7 +295,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
       limit: 500
       
 - name: Disk Space
@@ -303,7 +307,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
 
 # - name: Network Interfaces
 #   icon: fas fa-ethernet
@@ -322,7 +327,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
       
 - name: Astro Awani - Dunia
   icon: fas fa-calendar
@@ -344,7 +350,8 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space
 
 - name: System Alerts
   icon: fas fa-sensor-alert
@@ -354,4 +361,5 @@ sections:
     options:
       #hostname: http://192.168.8.107:61208
       #hostname: http://192.168.8.144:61208
-      hostname: https://glance.airiel.space
+      #hostname: https://glance.airiel.space
+      hostname: https://glancepi.airiel.space

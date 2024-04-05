@@ -251,11 +251,13 @@ sections:
       hostname: https://glancepi.airiel.space
   - type: gl-current-cores
     options:
-      hostname: http://localhost:61208
+      #hostname: http://localhost:61208
+      hostname: https://glancepi.airiel.space
       limit: 4
   - type: gl-ip-address
     options:
-      hostname: http://localhost:61208
+      #hostname: http://localhost:61208
+      hostname: https://glancepi.airiel.space
 
 - name: Memory Usage
   icon: fas fa-memory
